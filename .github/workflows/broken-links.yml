@@ -49,4 +49,7 @@ jobs:
         with:
           fail: true
           # removed md files that include liquid tags
-          args: --exclude-path README.md --exclude-path _pages/404.md --exclude-path _pages/blog.md --exclude-path _i18n/en/_posts/2018-12-22-distill.md --exclude-path _i18n/pt-br/_posts/2018-12-22-distill.md --verbose --no-progress './**/*.md' './**/*.html'
+          # Template documentation and internal notes are not checked; links to this site itself are excluded
+          # because new pages only exist after deployment; Google Scholar blocks automated requests;
+          # 403/429 (bot protection on some university pages) count as reachable.
+          args: --exclude-path README.md --exclude-path CHANGES.md --exclude-path CONTRIBUTING.md --exclude-path CUSTOMIZE.md --exclude-path FAQ.md --exclude-path INSTALL.md --exclude-path _pages/404.md --exclude '^https?://bennijaeger\.github\.io' --exclude 'scholar\.google\.com' --accept 200,206,403,429 --verbose --no-progress './**/*.md' './**/*.html'

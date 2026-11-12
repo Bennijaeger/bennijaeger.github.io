@@ -9,8 +9,8 @@ Current topics are
 - **The sign problem.** Complex Langevin simulations of QCD at non-zero baryon density, including the dynamical stabilisation method.
 - **One-flavour QCD at large N<sub>c</sub>** as a numerical approach to the bosonic sector of 𝒩 = 1 super Yang–Mills theory.
 
-Earlier, during my PhD in Mainz, I worked on the hadronic contribution to the anomalous magnetic moment of the muon and on the axial charge of the nucleon. The [research page](/research/) summarises each topic and my contribution, and the [publications page](/publications/) lists all works.
+Earlier, during my PhD in Mainz, I worked on the hadronic contribution to the anomalous magnetic moment of the muon and on the axial charge of the nucleon. The [research page](https://bennijaeger.github.io/research/) summarises each topic and my contribution, and the [publications page](https://bennijaeger.github.io/publications/) lists all works.
 
 The simulations rely on competitive computing allocations. As PI or Co-PI, I have contributed to allocations of approximately 1.8 billion CPU core-hours and 3.3 million GPU core-hours on national and European systems (EuroHPC, PRACE, STFC DiRAC, DeiC, LUMI).
 
-At SDU, I teach programming, statistics for data science, computational physics and high-performance computing, and I am Degree Responsible for Mathematics–Economics. Details are on the [teaching page](/teaching/).
+At SDU, I teach programming, statistics for data science, computational physics and high-performance computing, and I am Degree Responsible for Mathematics–Economics. Details are on the [teaching page](https://bennijaeger.github.io/teaching/).

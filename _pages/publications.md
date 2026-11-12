@@ -9,7 +9,7 @@ nav_order: 2
 
 <!-- _pages/publications.md -->
 
-In lattice field theory, author lists are alphabetical, so the author position does not indicate the individual contribution. The [research page](/research/) describes my role in each project. Citation counts are on [INSPIRE-HEP](https://inspirehep.net/authors/1272234) and [Google Scholar](https://scholar.google.com/citations?user=nnHveQwAAAAJ).
+In lattice field theory, author lists are alphabetical, so the author position does not indicate the individual contribution. The [research page](https://bennijaeger.github.io/research/) describes my role in each project. Citation counts are on [INSPIRE-HEP](https://inspirehep.net/authors/1272234) and [Google Scholar](https://scholar.google.com/citations?user=nnHveQwAAAAJ).
 
 <div class="publications">
 

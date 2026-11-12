@@ -361,7 +361,7 @@ external_links:
 # MAKE SURE imagemagick is installed and on your PATH before enabling imagemagick. In a terminal, run:
 #   convert -version
 imagemagick:
-  enabled: true # enables responsive images for your site (recommended, see https://github.com/alshedivat/al-folio/issues/537)
+  enabled: false # off: GitHub's ubuntu-26.04 runners have no working ImageMagick, so the .webp variants were missing (set true again if the workflow installs imagemagick)
   widths:
     - 480
     - 800

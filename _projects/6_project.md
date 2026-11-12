@@ -6,7 +6,7 @@ importance: 6
 related_publications: true
 ---
 
-*Odense lattice group, 2021–today*
+_Odense lattice group, 2021–today_
 
 QCD with quarks in the two-index antisymmetric representation (the Corrigan–Ramond extension) coincides with ordinary QCD for N<sub>c</sub> = 3. At large N<sub>c</sub>, the theory with one Dirac flavour is related by orientifold planar equivalence to the bosonic sector of 𝒩 = 1 super Yang–Mills theory.
 

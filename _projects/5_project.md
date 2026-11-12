@@ -6,7 +6,7 @@ importance: 5
 related_publications: true
 ---
 
-*FASTSUM, 2019–today*
+_FASTSUM, 2019–today_
 
 Spectral functions are related to Euclidean correlators by an integral transform. Their extraction from a finite number of statistically uncertain data points is an ill-posed inverse problem, and different methods can give different answers for the same data.
 

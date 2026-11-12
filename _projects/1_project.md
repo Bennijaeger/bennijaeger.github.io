@@ -6,7 +6,7 @@ importance: 1
 related_publications: true
 ---
 
-*CLS / Mainz, 2010–2017*
+_CLS / Mainz, 2010–2017_
 
 The hadronic vacuum polarisation gives the leading hadronic contribution to the anomalous magnetic moment of the muon, a<sub>μ</sub> = (g−2)<sub>μ</sub>/2, and dominates the uncertainty of its Standard Model prediction. In my PhD project, we computed this contribution with two flavours of O(a)-improved Wilson quarks on CLS ensembles {% cite DellaMorte:2011aa %}. The main difficulty is the region of small momentum transfer, which dominates the integral but is poorly resolved on a finite lattice. We used twisted boundary conditions to obtain additional momenta in this region and studied chiral, cutoff and finite-size effects.
 

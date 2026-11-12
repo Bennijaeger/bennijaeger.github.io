@@ -6,4 +6,4 @@ inline: true
 related_posts: false
 ---
 
-New preprint with R. H. D'Arcy, S. Kim and J.-I. Skullerud: *Thermal modifications of the B-meson spectrum*, [arXiv:2609.14440](https://arxiv.org/abs/2609.14440).
+New preprint with R. H. D'Arcy, S. Kim and J.-I. Skullerud: _Thermal modifications of the B-meson spectrum_, [arXiv:2609.14440](https://arxiv.org/abs/2609.14440).

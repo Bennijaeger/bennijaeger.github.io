@@ -4,7 +4,7 @@
 
 title: blank # the website title (if blank, full name will be used instead)
 first_name: Benjamin
-middle_name: 
+middle_name:
 last_name: Jäger
 email: jaeger@imada.sdu.dk
 keywords: lattice QCD, lattice field theory, high-performance computing, thermal QCD, complex Langevin, spectral reconstruction, University of Southern Denmark
@@ -315,7 +315,26 @@ enable_publication_badges:
 
 # Filter out certain bibtex entry keywords used internally from the bib output
 filtered_bibtex_keywords:
-  [abbr, abstract, altmetric, arxiv, bibtex_show, blog, category, code, html, inspirehep, pdf, poster, preview, selected, slides, supp, video, website]
+  [
+    abbr,
+    abstract,
+    altmetric,
+    arxiv,
+    bibtex_show,
+    blog,
+    category,
+    code,
+    html,
+    inspirehep,
+    pdf,
+    poster,
+    preview,
+    selected,
+    slides,
+    supp,
+    video,
+    website,
+  ]
 
 # Maximum number of authors to be shown for each publication (more authors are visible on click)
 max_author_limit: 5 # leave blank to always show all authors

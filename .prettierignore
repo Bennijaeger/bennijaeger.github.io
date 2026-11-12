@@ -4,3 +4,6 @@ assets/css/main.scss
 assets/plotly/demo.html
 lighthouse_results/desktop/*.html
 lighthouse_results/mobile/*.html
+assets/js/distillpub/*.js
+# Kramdown table attributes ({: .table .table-sm}) are not understood by Prettier
+_pages/teaching.md

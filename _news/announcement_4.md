@@ -6,4 +6,4 @@ inline: true
 related_posts: false
 ---
 
-FASTSUM preprint: *On the effective restoration of U(1)<sub>A</sub> symmetry at finite temperature*, [arXiv:2604.11916](https://arxiv.org/abs/2604.11916).
+FASTSUM preprint: _On the effective restoration of U(1)<sub>A</sub> symmetry at finite temperature_, [arXiv:2604.11916](https://arxiv.org/abs/2604.11916).

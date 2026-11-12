@@ -6,7 +6,7 @@ importance: 3
 related_publications: true
 ---
 
-*FASTSUM, 2013–today*
+_FASTSUM, 2013–today_
 
 Within the FASTSUM collaboration, we study hadrons across the transition to the quark–gluon plasma using anisotropic lattices with N<sub>f</sub> = 2+1 flavours of Wilson quarks. The small temporal lattice spacing provides more Euclidean-time points at a given temperature than an isotropic lattice.
 

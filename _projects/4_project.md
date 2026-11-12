@@ -6,7 +6,7 @@ importance: 4
 related_publications: true
 ---
 
-*with G. Aarts, F. Attanasio, F. Ziegler and P. de Forcrand, 2014–2022*
+_with G. Aarts, F. Attanasio, F. Ziegler and P. de Forcrand, 2014–2022_
 
 At non-zero baryon chemical potential, the fermion determinant is complex, and importance sampling cannot be applied (the sign problem). Complex Langevin simulations avoid this by complexifying the field variables. However, they can converge to incorrect results if the distribution extends too far into the complexified manifold.
 

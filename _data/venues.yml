@@ -1,6 +1,15 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
-
-"PhysRev":
-  url: https://journals.aps.org/
+# Venue badges used in _bibliography/papers.bib (abbr field). Badges without an entry here are shown without a link.
+"PRD":
+  url: https://journals.aps.org/prd/
+"PRL":
+  url: https://journals.aps.org/prl/
+"JHEP":
+  url: https://link.springer.com/journal/13130
+"EPJ C":
+  url: https://link.springer.com/journal/10052
+"EPJ A":
+  url: https://link.springer.com/journal/10050
+"PoS":
+  url: https://pos.sissa.it/
+"EPJ WoC":
+  url: https://www.epj-conferences.org/

@@ -1,9 +1,9 @@
 ---
 layout: post
 title: news.titles.news2
-date: 2015-11-07 16:11:00-0400
-inline: false
+date: 2026-09-01 09:00:00+0200
+inline: true
 related_posts: false
 ---
 
-{% translate_file _news/announcement_2.md %}
+Invited talk at the GPU Performance Portability workshop in Nottingham.

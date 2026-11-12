@@ -1,101 +1,341 @@
+# CV data rendered by _layouts/cv.liquid. Generated from the LaTeX CV; edit here directly.
 - title: General Information
   type: map
   contents:
-    - name: Full Name
-      value: Benjamin Jaeger
-    - name: Date of Birth
-      value: 1985
-    - name: Languages
-      value: English, German, Danish
-
+  - name: Name
+    value: Benjamin Jäger
+  - name: Position
+    value: Associate Professor, Department of Mathematics and Computer Science (IMADA), University of Southern Denmark
+  - name: Affiliation
+    value: Senior Fellow, Danish Institute for Advanced Study (DIAS)
+  - name: E-mail
+    value: jaeger@imada.sdu.dk
+  - name: Identifiers
+    value: <a href="https://inspirehep.net/authors/1272234">INSPIRE 1272234</a> · <a href="https://orcid.org/0000-0003-2930-609X">ORCID 0000-0003-2930-609X</a> · <a href="https://scholar.google.com/citations?user=nnHveQwAAAAJ">Google Scholar</a>
+  - name: Languages
+    value: German (C2), English (C2), Danish (B2)
+- title: Positions
+  type: time_table
+  contents:
+  - title: Associate Professor
+    institution: Department of Mathematics and Computer Science, University of Southern Denmark
+    year: 2021–now
+  - title: Assistant Professor
+    institution: Department of Mathematics and Computer Science, University of Southern Denmark
+    year: 2017–2021
+  - title: Postdoctoral researcher
+    institution: Institute for Theoretical Physics, ETH Zürich, Switzerland
+    year: 2016–2017
+    description:
+    - with P. de Forcrand
+  - title: Postdoctoral researcher
+    institution: Department of Physics, Swansea University, United Kingdom
+    year: 2013–2016
+    description:
+    - with G. Aarts
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: Johannes-Gutenberg University Mainz, Germany
-      year: 2014
-      description:
-        - Lattice QCD
-        - High Performance Computing
-        - title: Hadronic Matrix Elements in Lattice QCD
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
-
-- title: Experience
-  type: time_table
-  contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/george-gca/multi-language-al-folio">multi-language-al-folio</a>
-      year: 2023-now
-      description: A fork of al-folio theme with support for multiple languages.
-
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
+  - title: PhD in physics, summa cum laude
+    institution: Johannes Gutenberg University Mainz, Germany
+    year: 2010–2013
+    description:
+    - 'Thesis: Hadronic Matrix Elements in Lattice QCD'
+  - title: Diplom in physics, magna cum laude
+    institution: Johannes Gutenberg University Mainz, Germany
+    year: 2006–2010
+- title: Research Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+  - Lattice QCD and lattice field theory
+  - QCD at non-zero temperature and density
+  - High-performance and GPU computing
+  - Monte Carlo methods, stochastic differential equations and inverse problems
+  - Machine learning in the physical sciences
+  - Interdisciplinary research
+- title: Third-Party Funding
+  type: time_table
+  contents:
+  - year: 2025–2030
+    title: 'Novo Nordisk Foundation: Min Digitale Kompetenceportfolio'
+    description:
+    - Academic coordinator, ≈6.2 million DKK
+  - year: 2020–2022
+    title: Academic Flagship programme at ICHEC (exascale HPC)
+    description:
+    - Co-PI, funding for a software engineer
+  - year: 2019–2022
+    title: European Training Network EuroPLEx (H2020 ITN)
+    description:
+    - Co-PI, (≈30.6 million DKK total network funding)
+  - year: '2021'
+    title: 'DIAS seed funding: Mathematics in History'
+    description:
+    - Co-PI, ≈112,000 DKK
+  - year: '2020'
+    title: 'DIAS seed funding: Science of Science'
+    description:
+    - Co-PI, ≈112,000 DKK
+  - year: 2017–2023
+    title: DIAS fellowship (personal grant)
+    description:
+    - PI, ≈1.49 million DKK
+  - year: '2017'
+    title: 'EU COST Action THOR: short-term scientific mission'
+    description:
+    - PI, ≈4,500 DKK
+  - year: '2015'
+    title: Swansea College of Science Research Fund, travel grant
+    description:
+    - PI, ≈7,500 DKK
+  - year: 2010–2013
+    title: 'Helmholtz Institute Mainz: PhD scholarship'
+    description:
+    - ≈1.10 million DKK
+  - year: '2010'
+    title: 'Johannes Gutenberg University Mainz: Master''s scholarship'
+    description:
+    - ≈27,000 DKK
+- title: Computing Allocations
+  type: time_table
+  contents:
+  - title: Summary
+    maindescription: As PI or Co-PI, I have contributed to computing allocations of approximately 1.82 billion CPU core-hours and 3.32 million GPU core-hours on national and European systems.
+  - year: 2026–2027
+    title: 338 million CPU core-hours
+    institution: EuroHPC (EU)
+    description:
+    - Co-PI
+  - year: '2026'
+    title: 2.4 million CPU core-hours
+    institution: DeiC (DK)
+    description:
+    - PI
+  - year: 2025–2026
+    title: 1.77 million GPU core-hours
+    institution: EuroHPC (EU)
+    description:
+    - Co-PI
+  - year: 2024–2025
+    title: 0.75 million GPU core-hours
+    institution: EuroHPC (EU)
+    description:
+    - PI
+  - year: 2024–2025
+    title: 143 million CPU core-hours
+    institution: EuroHPC (EU)
+    description:
+    - PI
+  - year: '2024'
+    title: 0.8 million GPU core-hours
+    institution: DeiC (DK)
+    description:
+    - PI
+  - year: 2023–2024
+    title: 111 million CPU core-hours
+    institution: EuroHPC (EU)
+    description:
+    - Co-PI
+  - year: 2023–2024
+    title: 13 million CPU core-hours
+    institution: EuroHPC (EU)
+    description:
+    - PI
+  - year: 2022–2025
+    title: 185 million CPU core-hours
+    institution: STFC Council (UK)
+    description:
+    - Co-PI
+  - year: '2022'
+    title: 2.5 million CPU core-hours
+    institution: LUMI (FI) (personal)
+    description:
+    - PI
+  - year: 2019–2022
+    title: 385 million CPU core-hours
+    institution: STFC Council (UK)
+    description:
+    - Co-PI
+  - year: 2019–2020
+    title: 30 million CPU core-hours
+    institution: 18th European PRACE call
+    description:
+    - Co-PI
+  - year: 2018–2019
+    title: 31 million CPU core-hours
+    institution: STFC Council (UK)
+    description:
+    - Co-PI
+  - year: 2018–2019
+    title: 9 million CPU core-hours
+    institution: 16th European PRACE call
+    description:
+    - Co-PI
+  - year: 2017–2018
+    title: 2 million CPU core-hours
+    institution: SDU (ABACUS 2.0)
+    description:
+    - PI
+  - year: 2017–2018
+    title: 10 million CPU core-hours
+    institution: 14th European PRACE call
+    description:
+    - Co-PI
+  - year: 2016–2017
+    title: 23 million CPU core-hours
+    institution: 12th European PRACE call
+    description:
+    - Co-PI
+  - year: 2015–2018
+    title: 407 million CPU core-hours
+    institution: STFC Council (UK)
+    description:
+    - Co-PI
+  - year: 2013–2014
+    title: 70 million CPU core-hours
+    institution: Neumann Institute (DE)
+    description:
+    - Co-PI
+  - year: 2011–2012
+    title: 55 million CPU core-hours
+    institution: 2nd European PRACE call
+    description:
+    - Co-PI
+- title: Academic Service
+  type: time_table
+  contents:
+  - year: 2026–now
+    title: Degree Responsible for Mathematics–Economics
+  - year: 2026–now
+    title: Member of the Study Board for Mathematics–Economics
+  - year: 2025–now
+    title: Elected member of the Academic Council, Faculty of Science
+  - year: 2022–now
+    title: Academic Coordinator of the Kompetenceportfolio (soft-skills training)
+  - year: 2021–now
+    title: Member of the Teaching Committee for Mathematics
+  - year: 2021–2025
+    title: Degree Responsible for the Master's programme in Mathematics
+  - year: 2019–2023
+    title: Coordinator of the first-year projects in mathematics
+  - year: 2019–2022
+    title: Elected member of the DIAS management board
+  - year: '2022'
+    title: Initiator and organiser of the Nordic Lattice meeting, Odense
+  - year: '2019'
+    title: Organiser of the International Workshop on the Sign Problem in QCD, Odense
+  - title: Referee
+    description:
+    - Physical Review D, Physical Review Letters, Journal of High Energy Physics
+- title: Interdisciplinary Activities
+  type: time_table
+  contents:
+  - year: 2024–now
+    title: Senior Fellow, Danish Institute for Advanced Study
+  - year: 2024–2025
+    title: Extraction of medical data from patient records with large language models
+    description:
+    - with the Chiropractors' Knowledge Centre Odense
+  - year: 2024–now
+    title: Member of the AI Learning Lab, SDU
+  - year: 2023–now
+    title: Computational expert in DRIVEN, Center for Behaviour Change, Faculty of Health Sciences
+  - year: 2021–now
+    title: Member of the Center for Learning Computational Thinking, SDU
+  - year: 2020–2023
+    title: 'DIAS seed project: Toward a cognitive history of pre-modern rhetoric as mathematical thinking'
+    description:
+    - with the Faculty of Humanities
+  - year: 2020–2023
+    title: 'DIAS seed project: Measuring the impact of interdisciplinary research'
+    description:
+    - with the Faculty of Business and Social Sciences
+  - year: 2017–2023
+    title: Fellow, Danish Institute for Advanced Study
+- title: Professional Training
+  type: time_table
+  contents:
+  - year: 04/2021
+    title: Leading Teams in a Research Environment (7-day course)
+    institution: Bodenrod, Germany
+  - year: 2018–2019
+    title: Lecturer Training Programme (10 ECTS)
+    institution: University of Southern Denmark
+  - year: 04/2013
+    title: Leadership and Career Development (7-day course)
+    institution: Höchst, Germany
+  - year: 05/2011
+    title: Making an Impact as an Effective Researcher (7-day course)
+    institution: Buchenau, Germany
+- title: Conferences and Meetings
+  type: list
+  contents:
+  - At international and national conferences, I have presented 44 talks and 8 posters. Fifteen of these presentations were invited talks, and two posters were selected as the best poster presentation. I have attended conferences and workshops in over 20 countries.
+  - 05/2026 — Nordic Lattice meeting, Edinburgh, UK
+  - 08/2025 — Danish Quantum Field Theory Meeting 2025, Odense, DK
+  - 05/2025 — Nordic Lattice meeting, CERN, CH
+  - 08/2024 — HAMLET-PHYSICS Conference, Copenhagen, DK
+  - 07/2024 — International Symposium on Lattice Field Theory 2024, Liverpool, UK
+  - 06/2024 — Nordic Lattice meeting, Lund, SE
+  - 07/2023 — JSF Workshop on the Fermion Sign Problem, Peyresq, FR
+  - 06/2023 — Nordic Lattice meeting, Stavanger, NO
+  - 09/2022 — International Workshop on the Sign Problem in QCD, Tel-Aviv, IL
+  - 08/2022 — Nordic Lattice meeting, Helsinki, FI
+  - 08/2022 — International Symposium on Lattice Field Theory 2022, Bonn, DE
+  - 07/2022 — The XVth Quark confinement and the Hadron spectrum, Stavanger, NO
+  - 06/2022 — Strangeness in Quark Matter 2022, Busan, KR (online)
+  - 01/2022 — Nordic Lattice meeting (organiser & initiator), Odense, DK
+  - 07/2021 — International Symposium on Lattice Field Theory 2021, Boston, US (online)
+  - 08/2020 — Asia-Pacific Symposium for Lattice Field Theory, Tsukuba, JP (online)
+  - 09/2019 — International Workshop on the Sign Problem in QCD (organiser), Odense, DK
+  - 09/2018 — International Workshop on the Sign Problem in QCD, Bielefeld, DE
+  - 07/2018 — International Symposium on Lattice Field Theory 2018, Michigan, US
+  - 06/2018 — eXtreme QCD (poster presentation), Frankfurt, DE
+  - 03/2018 — Sino Danish Centre - Astro-Particle Physics workshop, Beijing, CN
+  - 07/2017 — eXtreme QCD (poster presentation), Pisa, IT
+  - 06/2017 — International Symposium on Lattice Field Theory 2017, Granada, ES
+  - 03/2017 — International Workshop on the Sign Problem in QCD, Seattle, US
+  - 11/2016 — New Developments in Computational Physics, Leipzig, DE
+  - 10/2016 — Hadronic Matter under Extreme Conditions, Dubna, RU
+  - 08/2016 — eXtreme QCD (poster presentation), Plymouth, UK
+  - 07/2016 — International Symposium on Lattice Field Theory 2016, Southampton, UK
+  - 03/2016 — Excited QCD, Lisbon, PT
+  - 09/2015 — eXtreme QCD, Wuhan, CN
+  - 07/2015 — International Symposium on Lattice Field Theory 2015, Kobe, JP
+  - 03/2015 — Excited QCD, Tatranska Lomnika, SK
+  - 07/2014 — International Symposium on Lattice Field Theory 2014, New York, US
+  - 06/2014 — eXtreme QCD (poster presentation), Stony Brook, US
+  - 07/2013 — International Symposium on Lattice Field Theory 2013, Mainz, DE
+  - 03/2013 — New Horizons in Lattice Field Theory (poster and talk), Natal, BR
+  - 06/2012 — International Symposium on Lattice Field Theory 2012, Cairns, AU
+  - 11/2011 — EINN 2011, Paphos, CY
+  - 07/2011 — International Symposium on Lattice Field Theory 2011, Squaw Valley, US
+- title: Invited Seminars and Colloquia
+  type: list
+  contents:
+  - 09/2026 — GPU Performance Portability workshop, Nottingham, UK
+  - 05/2026 — Hadrons workshop, Edinburgh, UK
+  - 02/2025 — Quantum & Crémant, SDU Quantum Hub, Odense, DK
+  - 10/2024 — Swansea Theory Seminars, Swansea, UK
+  - 03/2024 — Higgs Centre Colloquium, Edinburgh, UK
+  - 02/2023 — DRIVEN lecture (Center for Motivation and Behaviour Science), Odense, DK
+  - 05/2022 — DIAS lecture, Odense, DK
+  - 05/2021 — Matter and Radiation Seminar (online), Stavanger, NO
+  - 03/2021 — DIAS lecture, Odense, DK
+  - 04/2018 — CERN Lattice seminar, CERN, CH
+  - 03/2018 — Advances in lattice field theory, Zürich, CH
+  - 02/2018 — DIAS Ideas, Odense, DK
+  - 12/2017 — CP3 Lattice Winterschool, Odense, DK
+  - 11/2017 — High energy physics seminar, Bielefeld, DE
+  - 05/2017 — ITP Lunch seminar, Bern, CH
+  - 03/2017 — CPT Theory seminar, Marseille, FR
+  - 03/2016 — College of Science lunch talks (interdisciplinary), Swansea, UK
+  - 02/2016 — Plymouth theory seminar, Plymouth, UK
+  - 05/2015 — Higgs Centre Colloquium, Edinburgh, UK
+  - 11/2014 — Dublin theory seminar, Dublin, IE
+  - 09/2014 — Fourth Annual DiRAC Day (poster and talk), Durham, UK
+  - 05/2013 — Swansea theory group seminar, Swansea, UK
+  - 03/2012 — German physical society spring meeting 2012, Mainz, DE
+  - 09/2011 — Graduate summer school 2011, Chiemsee, DE
+  - 03/2011 — German physical society spring meeting 2011, Karlsruhe, DE
+  - 01/2011 — Mainz institute seminar, Mainz, DE

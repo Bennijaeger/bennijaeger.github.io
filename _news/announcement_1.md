@@ -1,9 +1,9 @@
 ---
 layout: post
 title: news.titles.news1
-date: 2015-10-22 15:59:00-0400
+date: 2026-09-13 09:00:00+0200
 inline: true
 related_posts: false
 ---
 
-{% translate_file _news/announcement_1.md %}
+New preprint with R. H. D'Arcy, S. Kim and J.-I. Skullerud: *Thermal modifications of the B-meson spectrum*, [arXiv:2609.14440](https://arxiv.org/abs/2609.14440).
